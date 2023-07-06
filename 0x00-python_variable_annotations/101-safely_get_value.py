@@ -11,7 +11,7 @@ def safely_get_value(dct, key, default = None):
 """
 from typing import TypeVar, Dict, Optional, Mapping, Any, Union
 
-V = TypeVar('V')
+V = TypeVar('T')
 
 
 def safely_get_value(dct: Mapping[str, V], key: Any, default:
