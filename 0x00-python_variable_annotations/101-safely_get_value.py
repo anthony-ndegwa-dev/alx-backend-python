@@ -14,7 +14,8 @@ from typing import TypeVar, Dict, Optional, Mapping, Any, Union
 V = TypeVar('T')
 
 
-def safely_get_value(dct: Mapping, key: Any, default: Union[V, None] = None) -> Union[Any, V]:
+def safely_get_value(dct: Mapping, key: Any, default: Union[V, None]
+                     = None) -> Union[Any, V]:
     """More involved type annotations"""
     if key in dct:
         return dct[key]
