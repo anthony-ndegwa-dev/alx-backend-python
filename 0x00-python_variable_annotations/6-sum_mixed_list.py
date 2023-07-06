@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ Type-annotated function takes list of integers and floats
     and returns their sum as a float.
 """
