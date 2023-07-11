@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Asynchronous coroutine takes in an integer argument
-(max_delay, with default value of 10) named wait_random that waits for 
+(max_delay, with default value of 10) named wait_random that waits for
 random delay between 0 and max_delay (included and float value)
 seconds and eventually returns it.
 
